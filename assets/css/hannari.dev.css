@@ -1,0 +1,46 @@
+.hannari-image-webgl {
+	display: block;
+}
+
+.hannari-image {
+	display: none;
+}
+
+.logo-bird {
+	display: block;
+	margin:0 2px;
+}
+
+.title {
+  font-family: "Zen Maru Gothic", serif;
+  font-weight: 600;
+  font-style: normal;
+  color: gray;
+}
+
+.nav-item {
+  font-family: "Zen Maru Gothic", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: gray;
+}
+
+@media screen and (max-width: 700px) {
+  .title {
+    font-size: 0.75rem;
+  }
+  .hannari-image-webgl {
+    display: none;
+  }
+  .hannari-image {
+    display: block;
+  }
+
+  .logo-bird {
+/*	display: none;*/
+	width:40px;
+	margin-left:24px;
+  }
+
+
+}
